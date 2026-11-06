@@ -1,0 +1,19 @@
+{
+    "Doctors": {
+        "1": {
+            "CRM": "404770/SP",
+            "Nome": "Laurette Furlaneto",
+            "Setor": "Pronto Atendimento"
+        },
+        "2": {
+            "CRM": "107506/SP",
+            "Nome": "Nicolas Aureliano",
+            "Setor": "UTI"
+        },
+        "3": {
+            "CRM": "193425/SP",
+            "Nome": "Jaqueline Gorni",
+            "Setor": "Clínico"
+        }
+    }
+}

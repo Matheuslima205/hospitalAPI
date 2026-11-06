@@ -1,0 +1,19 @@
+{
+    "Nurses": {
+        "1": {
+            "COREN": "349812-ENF",
+            "Nome": "Carlos Silva",
+            "Setor": "Pronto Atendimento"
+        },
+        "2": {
+            "COREN": "107506/SP",
+            "Nome": "Natalia Lima",
+            "Setor": "UTI"
+        },
+        "3": {
+            "COREN": "193425/SP",
+            "Nome": "Joaquim Moreira",
+            "Setor": "Clínico"
+        }
+    }
+}
