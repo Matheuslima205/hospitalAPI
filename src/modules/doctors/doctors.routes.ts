@@ -5,4 +5,4 @@ export const doctorsRoutes: FastifyPluginAsync = async (app) => {
     app.get("/doctors", async () => {
         return data
     })
-}
+};

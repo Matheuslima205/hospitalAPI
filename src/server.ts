@@ -1,5 +1,6 @@
 import { buildApp } from "./app.js";
+import { env } from "./config.js"
 
 const app = buildApp();
 
-app.listen({ port: 3000, host: "0.0.0.0" });
+app.listen({ port: env.PORT, host: env.HOST });
