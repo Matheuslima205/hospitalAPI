@@ -2,12 +2,12 @@
   "name": "hospitalapi",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
-    "dev": "tsx watch src/server.js",
-    "test": "vitest"
-  },
+    "dev": "tsx watch --env-file=.env src/server.js",
+    "test": "vitest",
+    "start": "node --env-file-if-exists=.env .dist/server.js"
+  }, 
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -15,11 +15,12 @@
   "dependencies": {
     "dotenv": "^18.0.9",
     "fastify": "^5.12.8",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2",
     "vitest": "^5.1.0"
-  },
-  "devDependencies": {
-    "@types/node": "^26.6.6"
   }
 }
